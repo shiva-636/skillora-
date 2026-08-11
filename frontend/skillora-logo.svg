@@ -1,0 +1,74 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e5f8c"/>
+      <stop offset="45%" stop-color="#2e8fb8"/>
+      <stop offset="100%" stop-color="#1a4d70"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c76a"/>
+      <stop offset="50%" stop-color="#c9a13e"/>
+      <stop offset="100%" stop-color="#a97f2a"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d3d5c"/>
+      <stop offset="55%" stop-color="#4fc3d9"/>
+      <stop offset="100%" stop-color="#eaf7fb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top half of S: blue hook opening left, with gold inner ring -->
+  <path d="M 118 22
+           C 78 22, 52 46, 52 76
+           C 52 104, 74 124, 106 130
+           C 96 128, 88 118, 88 104
+           C 88 86, 104 72, 126 72
+           C 140 72, 152 78, 158 88
+           L 142 100
+           C 138 90, 130 84, 118 84
+           C 104 84, 94 92, 94 104
+           C 94 118, 108 128, 126 128
+           C 156 128, 178 106, 178 76
+           C 178 46, 152 22, 118 22 Z"
+        fill="url(#blueGrad)"/>
+
+  <!-- Bottom half of S: mirrored -->
+  <path d="M 82 178
+           C 122 178, 148 154, 148 124
+           C 148 96, 126 76, 94 70
+           C 104 72, 112 82, 112 96
+           C 112 114, 96 128, 74 128
+           C 60 128, 48 122, 42 112
+           L 58 100
+           C 62 110, 70 116, 82 116
+           C 96 116, 106 108, 106 96
+           C 106 82, 92 72, 74 72
+           C 44 72, 22 94, 22 124
+           C 22 154, 48 178, 82 178 Z"
+        fill="url(#blueGrad)"/>
+
+  <!-- Gold accent ring, top -->
+  <path d="M 118 30
+           C 84 30, 60 50, 60 76
+           C 60 92, 70 105, 86 112
+           C 78 106, 74 97, 74 88
+           C 74 66, 94 50, 120 50
+           C 134 50, 146 55, 154 64"
+        fill="none" stroke="url(#goldGrad)" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Gold accent ring, bottom -->
+  <path d="M 82 170
+           C 116 170, 140 150, 140 124
+           C 140 108, 130 95, 114 88
+           C 122 94, 126 103, 126 112
+           C 126 134, 106 150, 80 150
+           C 66 150, 54 145, 46 136"
+        fill="none" stroke="url(#goldGrad)" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Diagonal arrow shaft, bottom-left to top-right -->
+  <path d="M 62 148 L 132 60" stroke="url(#arrowGrad)" stroke-width="10" stroke-linecap="round"/>
+  <!-- Arrowhead -->
+  <path d="M 132 60 L 108 66 L 118 76 L 126 86 L 132 62 Z" fill="url(#arrowGrad)"/>
+  <!-- Arrow tail fletching -->
+  <path d="M 62 148 L 78 132 L 70 140 L 62 148 L 70 152 Z" fill="url(#arrowGrad)" opacity="0.85"/>
+</svg>
