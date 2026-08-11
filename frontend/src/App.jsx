@@ -1,14 +1,14 @@
 import { Routes, Route, Link, useNavigate, Navigate, useLocation } from 'react-router-dom';
-import JobList from './pages/JobList.jsx';
-import JobDetail from './pages/JobDetail.jsx';
-import PostJob from './pages/PostJob.jsx';
-import Login from './pages/Login.jsx';
-import Signup from './pages/Signup.jsx';
-import ClientDashboard from './pages/ClientDashboard.jsx';
-import StudentDashboard from './pages/StudentDashboard.jsx';
-import JobApplicants from './pages/JobApplicants.jsx';
-import Profile from './pages/Profile.jsx';
-import PublicProfile from './pages/PublicProfile.jsx';
+import JobList from './Pages/JobList.jsx';
+import JobDetail from './Pages/JobDetail.jsx';
+import PostJob from './Pages/PostJob.jsx';
+import Login from './Pages/Login.jsx';
+import Signup from './Pages/Signup.jsx';
+import ClientDashboard from './Pages/ClientDashboard.jsx';
+import StudentDashboard from './Pages/StudentDashboard.jsx';
+import JobApplicants from './Pages/JobApplicants.jsx';
+import Profile from './Pages/Profile.jsx';
+import PublicProfile from './Pages/PublicProfile.jsx';
 import BottomNav from './components/BottomNav.jsx';
 import { getUser, clearSession } from './api/auth';
 
