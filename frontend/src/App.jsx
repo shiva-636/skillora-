@@ -9,7 +9,7 @@ import StudentDashboard from './Pages/StudentDashboard.jsx';
 import JobApplicants from './Pages/JobApplicants.jsx';
 import Profile from './Pages/Profile.jsx';
 import PublicProfile from './Pages/PublicProfile.jsx';
-import BottomNav from './components/BottomNav.jsx';
+import BottomNav from './component/BottomNav.jsx';
 import { getUser, clearSession } from './api/auth';
 
 // Guards routes that need a logged-in user (and optionally a specific role).
